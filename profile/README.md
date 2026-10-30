@@ -9,7 +9,8 @@
 <img src="./assets/htop.svg" width="100%" alt="languages and current projects">
 -->
 
-<a href="https://eliasmolato.com">[ site ]</a> ·
+<a href="https://eliasmolato.com">[ Personal site ]</a> ·
+<a href="https://oddpod.studio">[ oddPOD ]</a> ·
 <a href="https://builtflow.studio">[ builtflow ]</a> ·
 <a href="https://youvelop.com">[ youvelop ]</a>
 
