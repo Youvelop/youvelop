@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="196" viewBox="0 0 830 196" role="img" aria-label="tail -f ~/now.log">
+<defs>
+<pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" opacity=".35"/></pattern>
+<radialGradient id="vig" cx="50%" cy="45%" r="75%"><stop offset="60%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".55"/></radialGradient>
+<linearGradient id="roll" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffb454" stop-opacity="0"/><stop offset=".5" stop-color="#ffb454" stop-opacity=".05"/><stop offset="1" stop-color="#ffb454" stop-opacity="0"/></linearGradient>
+<clipPath id="clip"><rect x="1" y="1" width="828" height="194" rx="10"/></clipPath>
+</defs>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace;white-space:pre;fill:#d6dde6}
+.d{fill:#5d6672}.a{fill:#ffb454}.b{fill:#5fd7c4}.f{fill:#1c2128}
+.in{animation:in .3s ease-out both}
+@keyframes in{from{opacity:0}to{opacity:1}}
+.cur{animation:blink 1.05s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.roll{animation:roll 7s linear infinite}
+@keyframes roll{from{transform:translateY(-90px)}to{transform:translateY(196px)}}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<g clip-path="url(#clip)">
+<rect width="830" height="196" fill="#0a0c0f"/>
+<rect width="830" height="30" fill="#0e1115"/>
+<line x1="0" y1="30.5" x2="830" y2="30.5" stroke="#252b34"/>
+<rect x="16" y="11" width="8" height="8" fill="#ffb454"/>
+<text x="34" y="19.5" font-size="11.5"><tspan class="d">elias@molato:~$ </tspan>tail -f ~/now.log</text>
+<text x="814" y="19.5" font-size="11" class="d" text-anchor="end">utf-8 · 80x24 · tty1</text>
+<text x="24" y="54" font-size="12"><tspan class="d">$ </tspan>tail -f ~/now.log</text><text class="in" style="animation-delay:0.40s" x="24" y="78" font-size="12"><tspan class="d">09:12</tspan>  <tspan class="b">ship </tspan> <tspan class="a">builtflow       </tspan>client ecosystem on starnetos, live</text><text class="in" style="animation-delay:0.85s" x="24" y="96" font-size="12"><tspan class="d">11:40</tspan>  <tspan class="b">art  </tspan> <tspan class="a">studio          </tspan>series 04 scans uploaded</text><text class="in" style="animation-delay:1.30s" x="24" y="114" font-size="12"><tspan class="d">14:05</tspan>  <tspan class="b">ship </tspan> <tspan class="a">oddpod          </tspan>mascot v2, idle animation</text><text class="in" style="animation-delay:1.75s" x="24" y="132" font-size="12"><tspan class="d">15:22</tspan>  <tspan class="b">fix  </tspan> <tspan class="a">eliasmolato.com </tspan>gallery + shop merged into one home</text><text class="in" style="animation-delay:2.20s" x="24" y="150" font-size="12"><tspan class="d">16:30</tspan>  <tspan class="b">think</tspan> <tspan class="a">README.md       </tspan>what if the profile booted like an os?</text><rect class="cur" x="24" y="157" width="8" height="14" fill="#ffb454"/>
+<rect class="roll" width="830" height="90" fill="url(#roll)"/>
+<rect width="830" height="196" fill="url(#scan)" opacity=".5"/>
+<rect width="830" height="196" fill="url(#vig)"/>
+</g>
+<rect x=".5" y=".5" width="829" height="195" rx="10" fill="none" stroke="#252b34"/>
+</svg>
